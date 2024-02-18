@@ -1,35 +1,16 @@
-# devcontainerJavaGUIWM - Visual Studio Code devcontainer for Java including GUI
+# Java Grimoire
 
-## Sample Dev Container file(s) for  and Java with GUI in VS Code Containerized Development
+## a book of Java (programming) magic
 
-*assumptions*: Docker and VS Code installed as well as the Dev Containers extension for Visual Studio Code.
+The repository is based on the (`https://github.com/WalterMarch/devcontainerJavaGUIWM`) template repo and is a part of the larger [Grimoire Programmatica](https://github.com/WalterMarch/grimoireprogrammatica) project.
 
-*usage*: clone the repo then open in Visual Studio Code.
+Since I'm teaching myself Java, these files will be simple and perhaps not strictly follow best practices (since I may not actually know them).
 
-*example*:  clone the repo; open a new VS Code window; open the directory containing this repo; when prompted, choose Reopen in Container. 
+### The code
 
-This devcontainer is based on the latest Ubuntu image (`mcr.microsoft.com/devcontainers/base:ubuntu`).
+* [SwingHello](./SwingHello/) - a very simple `javax.swing.JOptionPane` example
 
-The JDK is installed by `post-create.sh`.
-
-The following line in the `devcontainer.json` allows us to run a Java GUI application from inside a VS Code devcontainer installation.
-
-```jsonc
-    "runArgs": ["-e DISPLAY=$DISPLAY"]
-```
-
-When I first found the suggestion to use `runArgs`, the source suggested it only worked in Windows 11. I have also found it works on MacOS.
-
-## Run the Sample Code
-
-In the `sample` directory, run the following commands:
-
-```bash
-javac SwingHello.java
-java SwingHello
-```
-
-### miscellany
+## miscellany
 
 `configit.sh` looks like this:
 
