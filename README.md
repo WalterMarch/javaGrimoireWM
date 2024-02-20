@@ -8,8 +8,8 @@ Since I'm teaching myself Java, these files will be simple and perhaps not stric
 
 ### The code
 
-* [SwingHello](./SwingHello/) - a very simple `javax.swing.JOptionPane` example.
 * [String](./String/) - checking out String-related methods.
+* [SwingHello](./SwingHello/) - a very simple `javax.swing.JOptionPane` example.
 
 ## miscellany
 
