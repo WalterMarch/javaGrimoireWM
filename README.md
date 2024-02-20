@@ -2,7 +2,7 @@
 
 ## a book of Java (programming) magic
 
-The repository is based on the (`https://github.com/WalterMarch/devcontainerJavaGUIWM`) template repo and is a part of the larger [Grimoire Programmatica](https://github.com/WalterMarch/grimoireprogrammatica) project.
+The repository is based on the [devcontainerJavaGUIWM](`https://github.com/WalterMarch/devcontainerJavaGUIWM`) template repo and is a part of the larger [Grimoire Programmatica](https://github.com/WalterMarch/grimoireprogrammatica) project.
 
 Since I'm teaching myself Java, these files will be simple and perhaps not strictly follow best practices (since I may not actually know them).
 
